@@ -1,0 +1,80 @@
+.main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+}
+ 
+.titre, .paragraphe {
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 5px 10px grey;
+}
+
+.titre {
+    display: inline-block;
+    font-size: 30px;
+}
+ 
+.paragraphe {
+    display: block;
+}
+ 
+.carte {
+    overflow: hidden;
+    margin-top: 3vw;
+}
+ 
+.carte-image {
+  width: 30%;
+}
+
+.maquette-image {
+  width: 50%;
+}
+ 
+.carte-image, .maquette-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+ 
+.video {
+    margin-top: 3vw;
+}
+ 
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+            animation: gradient 15s ease infinite;
+}
+ 
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
